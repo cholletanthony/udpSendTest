@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextField *tbText;
+@property (weak, nonatomic) IBOutlet UIButton *btnSend;
 
 @end
 
